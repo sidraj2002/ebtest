@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Elastic Beanstalk</title>
+    <style>
+      body {
+        color: #ffffff;
+        font-family: Arial, sans-serif;
+        font-size:14px;
+        -moz-transition-property: text-shadow;
+        -moz-transition-duration: 4s;
+        -webkit-transition-property: text-shadow;
+        -webkit-transition-duration: 4s;
+        text-shadow: none;
+        background-image: url("http://rhinobooksnashville.com/wp-content/uploads/2019/06/105312566-1530803740357gettyimages-815863456.1910x1000.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      body.blurry {
+        -moz-transition-property: text-shadow;
+        -moz-transition-duration: 4s;
+        -webkit-transition-property: text-shadow;
+        -webkit-transition-duration: 4s;
+        text-shadow: #fff 0px 0px 25px;
+      }
+      a {
+        color: #55aaff;
+      }
+      .textColumn, .linksColumn {
+        padding: 2em;
+      }
+      .textColumn {
+        position: absolute;
+        top: 0px;
+        right: 50%;
+        bottom: 0px;
+        left: 0px;
+
+        text-align: right;
+        padding-top: 11em;
+
+      }
+      .textColumn p {
+        width: 75%;
+        float:right;
+      }
+      .linksColumn {
+        position: absolute;
+        top:0px;
+        right: 0px;
+        bottom: 0px;
+        left: 50%;
+
+        background-color: #33342D;
+      }
+
+      h1 {
+        color: #fff;
+        font-size: 500%;
+        font-weight: normal;
+        margin-bottom: 0em;
+      }
+      h2 {
+        font-size: 200%;
+        font-weight: normal;
+        margin-bottom: 0em;
+      }
+      ul {
+        padding-left: 1em;
+        margin: 0px;
+      }
+      li {
+        margin: 1em 0em;
+      }
+    </style>
+  </head>
+  <body>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <div class="textColumn">
+      <h1>OcTank</h1>
+    </div> 
+    <br>
+    <div class="linksColumn">
+      <div class="container">
+      <h2>Start Your Travel Search:</h2>
+      <form>
+        <div class="input-group flex-nowrap mb-3 mt-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="addon-wrapping">Destination</span>
+          </div>
+          <input type="text" class="form-control" aria-label="destination" aria-describedby="addon-wrapping">
+        </div>
+        <div class="input-group flex-nowrap mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="addon-wrapping">Departure Date</span>
+          </div>
+          <input type="date" class="form-control mr-3" aria-label="departuer-date" aria-describedby="addon-wrapping">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="addon-wrapping">Return Date</span>
+            </div>
+            <input type="date" class="form-control" aria-label="return-date" aria-describedby="addon-wrapping">
+          </div> 
+         <button type="button" class="btn btn-primary">Search</button>
+        </fieldset>
+      </form>
+      </div>
+    </div>
+  </body>
+</html>
